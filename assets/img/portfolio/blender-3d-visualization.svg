@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cadBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111622" />
+      <stop offset="100%" stop-color="#1a2133" />
+    </linearGradient>
+    <linearGradient id="orangeGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea7600" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#cadBg)" />
+
+  <rect x="30" y="20" width="740" height="44" rx="8" fill="#1e273a" stroke="#324260" stroke-width="1" />
+  <circle cx="50" cy="42" r="6" fill="#ea7600" />
+  <text x="66" y="46" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="13" font-weight="700">3D DESIGN &amp; MODELING | BLENDER SPATIAL VISUALIZATION &amp; CAD</text>
+  <rect x="615" y="29" width="140" height="26" rx="13" fill="url(#orangeGlow)" />
+  <text x="685" y="46" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="800" text-anchor="middle">BLENDER &amp; CAD</text>
+
+  <rect x="30" y="78" width="240" height="392" rx="10" fill="#171f2e" stroke="#27344c" stroke-width="1" />
+  <text x="48" y="108" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="1">3D ASSET EVALUATION</text>
+
+  <rect x="48" y="122" width="204" height="66" rx="6" fill="#0d121c" />
+  <text x="60" y="144" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Rendering Engine</text>
+  <text x="60" y="174" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="22" font-weight="900">Cycles / Eevee <tspan font-size="12" font-weight="600" fill="#94a3b8">PBR</tspan></text>
+
+  <rect x="48" y="198" width="204" height="66" rx="6" fill="#0d121c" />
+  <text x="60" y="220" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Polygon Topology</text>
+  <text x="60" y="250" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="24" font-weight="900">Sub-D <tspan font-size="12" font-weight="600" fill="#94a3b8">Quad-Mesh</tspan></text>
+
+  <text x="48" y="290" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Core Visualization Skills</text>
+  <text x="48" y="315" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">• 3D Spatial Modeling &amp; Analysis</text>
+  <text x="48" y="335" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">• PBR Materials &amp; Procedural Texturing</text>
+  <text x="48" y="355" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">• Studio Lighting &amp; Camera Staging</text>
+  <text x="48" y="375" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">• Technical Product Visualization</text>
+
+  <rect x="48" y="398" width="204" height="56" rx="6" fill="#24334a" stroke="#f59e0b" stroke-width="1" />
+  <text x="60" y="422" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="700">VISUAL ACCURACY AUDIT</text>
+  <text x="60" y="442" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="11">Engineering 3D Digital Twins</text>
+
+  <rect x="285" y="78" width="485" height="392" rx="10" fill="#171f2e" stroke="#27344c" stroke-width="1" />
+
+  <polygon points="410,210 527,145 527,270 410,335" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+  <line x1="410" y1="272" x2="527" y2="208" stroke="#38bdf8" stroke-width="1" stroke-dasharray="4,4" opacity="0.6" />
+  <line x1="468" y1="178" x2="468" y2="303" stroke="#38bdf8" stroke-width="1" stroke-dasharray="4,4" opacity="0.6" />
+
+  <polygon points="527,145 645,210 645,335 527,270" fill="#334155" stroke="#f59e0b" stroke-width="2" />
+  <line x1="586" y1="178" x2="586" y2="303" stroke="#f59e0b" stroke-width="1" opacity="0.5" />
+
+  <polygon points="410,210 527,145 645,210 527,275" fill="#475569" stroke="#ffffff" stroke-width="1.5" />
+  <line x1="468" y1="242" x2="586" y2="178" stroke="#ffffff" stroke-width="0.8" opacity="0.4" />
+  <line x1="468" y1="178" x2="586" y2="242" stroke="#ffffff" stroke-width="0.8" opacity="0.4" />
+
+  <rect x="305" y="98" width="180" height="55" rx="6" fill="#0d121c" stroke="#27344c" stroke-width="1" />
+  <text x="317" y="118" fill="#ea7600" font-family="system-ui, sans-serif" font-size="10" font-weight="700">BLENDER SHADER GRAPH</text>
+  <text x="317" y="133" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="10">Roughness: 0.18 | Metallic: 0.95</text>
+  <text x="317" y="146" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="9">IOR: 1.45 (Anisotropic Coat)</text>
+
+  <rect x="305" y="418" width="445" height="36" rx="6" fill="#0d121c" />
+  <text x="325" y="440" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Application: <tspan fill="#ffffff" font-weight="600">Blender 3D &amp; SolidWorks CAD</tspan> | Quality: <tspan fill="#f59e0b" font-weight="700">Photorealistic Visual Accuracy</tspan></text>
+</svg>

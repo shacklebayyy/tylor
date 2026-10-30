@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="codeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="bluePy" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#codeBg)" />
+
+  <rect x="30" y="20" width="740" height="44" rx="8" fill="#21262d" stroke="#30363d" stroke-width="1" />
+  <circle cx="50" cy="42" r="6" fill="#38bdf8" />
+  <text x="66" y="46" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="13" font-weight="700">PROGRAMMING &amp; AI | PYTHON AUTOMATION &amp; CONTENT EVALUATION</text>
+  <rect x="615" y="29" width="140" height="26" rx="13" fill="url(#bluePy)" />
+  <text x="685" y="46" fill="#0d1117" font-family="system-ui, sans-serif" font-size="11" font-weight="800" text-anchor="middle">PYTHON &amp; AI QA</text>
+
+  <rect x="30" y="78" width="240" height="392" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+  <text x="48" y="108" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="1">AUTOMATION PIPELINE</text>
+
+  <rect x="48" y="122" width="204" height="66" rx="6" fill="#0d1117" />
+  <text x="60" y="144" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">Processing Time Reduction</text>
+  <text x="60" y="174" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="24" font-weight="900">- 78% <tspan font-size="12" font-weight="600" fill="#8b949e">via Scripts</tspan></text>
+
+  <rect x="48" y="198" width="204" height="66" rx="6" fill="#0d1117" />
+  <text x="60" y="220" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">AI Output Accuracy Audit</text>
+  <text x="60" y="250" fill="#10b981" font-family="system-ui, sans-serif" font-size="24" font-weight="900">98.8% <tspan font-size="12" font-weight="600" fill="#8b949e">Pass Rate</tspan></text>
+
+  <text x="48" y="290" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Programming Capabilities</text>
+  <text x="48" y="315" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">• Python Workflow Automation</text>
+  <text x="48" y="335" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">• AI-Generated Content Evaluation</text>
+  <text x="48" y="355" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">• Visual Accuracy Assessment</text>
+  <text x="48" y="375" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">• Structured Technical Feedback</text>
+
+  <rect x="48" y="398" width="204" height="56" rx="6" fill="#1f2937" stroke="#38bdf8" stroke-width="1" />
+  <text x="60" y="422" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="700">QUALITY ASSURANCE</text>
+  <text x="60" y="442" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11">Systematic Error Detection</text>
+
+  <rect x="285" y="78" width="485" height="392" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+
+  <rect x="305" y="98" width="445" height="300" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <circle cx="325" cy="118" r="5" fill="#ff5f56" />
+  <circle cx="340" cy="118" r="5" fill="#ffbd2e" />
+  <circle cx="355" cy="118" r="5" fill="#27c93f" />
+  <text x="380" y="122" fill="#8b949e" font-family="monospace" font-size="11">spatial_ai_evaluator.py</text>
+
+  <g font-family="monospace" font-size="12">
+    <text x="325" y="155" fill="#ff7b72">import</text>
+    <text x="375" y="155" fill="#79c0ff">numpy</text>
+    <text x="418" y="155" fill="#ff7b72">as</text>
+    <text x="438" y="155" fill="#c9d1d9">np, </text>
+    <text x="465" y="155" fill="#79c0ff">open3d</text>
+    <text x="515" y="155" fill="#ff7b72">as</text>
+    <text x="535" y="155" fill="#c9d1d9">o3d</text>
+
+    <text x="325" y="180" fill="#d2a8ff">def</text>
+    <text x="355" y="180" fill="#79c0ff"> evaluate_spatial_accuracy</text>
+    <text x="545" y="180" fill="#c9d1d9">(ground_truth, ai_model):</text>
+
+    <text x="345" y="205" fill="#8b949e"># Automated LiDAR cloud error assessment</text>
+    <text x="345" y="230" fill="#c9d1d9">residuals = np.linalg.norm(ground_truth - ai_model, axis=1)</text>
+
+    <text x="345" y="255" fill="#ff7b72">if</text>
+    <text x="365" y="255" fill="#c9d1d9">np.mean(residuals) &lt; </text>
+    <text x="505" y="255" fill="#79c0ff">0.02</text>
+    <text x="535" y="255" fill="#c9d1d9">:</text>
+
+    <text x="365" y="280" fill="#7ee787">return</text>
+    <text x="415" y="280" fill="#a5d6ff">"PASSED: Visual &amp; Geometric Integrity Verified"</text>
+
+    <text x="345" y="305" fill="#ff7b72">return</text>
+    <text x="395" y="305" fill="#ffa657">generate_structured_technical_feedback(residuals)</text>
+
+    <rect x="320" y="325" width="415" height="60" rx="6" fill="#161b22" stroke="#10b981" stroke-width="1" />
+    <text x="335" y="348" fill="#10b981" font-size="11">[EVALUATION EXECUTION] Complete: 4,820 assets audited.</text>
+    <text x="335" y="368" fill="#58a6ff" font-size="11">Result: 98.8% compliance with engineering specifications.</text>
+  </g>
+
+  <rect x="305" y="418" width="445" height="36" rx="6" fill="#0d1117" />
+  <text x="325" y="440" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">Language: <tspan fill="#38bdf8" font-weight="600">Python 3.x</tspan> | Discipline: <tspan fill="#10b981" font-weight="700">AI Visual Accuracy &amp; Technical Feedback</tspan></text>
+</svg>

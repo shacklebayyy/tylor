@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="greenGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad2)" />
+  <circle cx="650" cy="150" r="220" fill="#8b5cf6" opacity="0.08" />
+
+  <!-- Navigation Header -->
+  <rect x="30" y="30" width="740" height="50" rx="8" fill="#1f2937" stroke="#374151" stroke-width="1" />
+  <text x="50" y="60" fill="#f3f4f6" font-family="system-ui, sans-serif" font-size="14" font-weight="600">INTER-ANNOTATOR RELIABILITY PROTOCOL | Cohen's Kappa Matrix</text>
+  <rect x="580" y="42" width="170" height="26" rx="13" fill="url(#purpleGlow)" />
+  <text x="665" y="59" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">5-PERSON TEAM SCORE</text>
+
+  <!-- Left Card: Kappa Score Gauge -->
+  <rect x="30" y="100" width="280" height="460" rx="10" fill="#1f2937" stroke="#374151" stroke-width="1" />
+  <text x="50" y="135" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="12" font-weight="600">COHEN'S KAPPA (κ)</text>
+  <text x="50" y="195" fill="#a855f7" font-family="system-ui, sans-serif" font-size="62" font-weight="900">0.82</text>
+  <text x="50" y="225" fill="#10b981" font-family="system-ui, sans-serif" font-size="14" font-weight="700">✓ Almost Perfect Agreement</text>
+
+  <line x1="50" y1="250" x2="290" y2="250" stroke="#374151" stroke-width="1" />
+
+  <text x="50" y="280" fill="#e5e7eb" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Team Statistics</text>
+  <text x="50" y="310" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="12">Team Size: <tspan fill="#ffffff" font-weight="600">5 Annotators</tspan></text>
+  <text x="50" y="335" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="12">Assignments: <tspan fill="#ffffff" font-weight="600">1,200+ Evaluated</tspan></text>
+  <text x="50" y="360" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="12">Consensus Rate: <tspan fill="#10b981" font-weight="600">94.8%</tspan></text>
+  <text x="50" y="385" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="12">Approval Rating: <tspan fill="#a855f7" font-weight="600">&gt;95%</tspan></text>
+
+  <!-- Key Metric Pill -->
+  <rect x="50" y="420" width="240" height="120" rx="8" fill="#111827" stroke="#374151" stroke-width="1" />
+  <text x="65" y="450" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="11" font-weight="600">DISAMBIGUATION GUIDELINES</text>
+  <text x="65" y="475" fill="#f3f4f6" font-family="system-ui, sans-serif" font-size="12" font-weight="500">• Multi-tier Rubric Standard</text>
+  <text x="65" y="495" fill="#f3f4f6" font-family="system-ui, sans-serif" font-size="12" font-weight="500">• Edge-Case Calibration</text>
+  <text x="65" y="515" fill="#f3f4f6" font-family="system-ui, sans-serif" font-size="12" font-weight="500">• Error Resolution Audits</text>
+
+  <!-- Right Panel: Agreement Heatmap Grid -->
+  <rect x="330" y="100" width="440" height="460" rx="10" fill="#1f2937" stroke="#374151" stroke-width="1" />
+  <text x="355" y="135" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Inter-Annotator Agreement Heatmap Matrix</text>
+
+  <!-- Matrix Table Header -->
+  <text x="375" y="180" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="11" font-weight="700">ANN</text>
+  <text x="435" y="180" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="11" font-weight="700">ANN 1</text>
+  <text x="495" y="180" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="11" font-weight="700">ANN 2</text>
+  <text x="555" y="180" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="11" font-weight="700">ANN 3</text>
+  <text x="615" y="180" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="11" font-weight="700">ANN 4</text>
+  <text x="675" y="180" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="11" font-weight="700">ANN 5</text>
+
+  <!-- Grid Rows -->
+  <!-- Row 1 -->
+  <text x="370" y="225" fill="#e5e7eb" font-family="system-ui, sans-serif" font-size="11" font-weight="700">ANN 1</text>
+  <rect x="425" y="200" width="50" height="40" rx="4" fill="#a855f7" />
+  <text x="450" y="225" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">1.0</text>
+  <rect x="485" y="200" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.9" />
+  <text x="510" y="225" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.86</text>
+  <rect x="545" y="200" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.8" />
+  <text x="570" y="225" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.82</text>
+  <rect x="605" y="200" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.8" />
+  <text x="630" y="225" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.81</text>
+  <rect x="665" y="200" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.75" />
+  <text x="690" y="225" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.79</text>
+
+  <!-- Row 2 -->
+  <text x="370" y="280" fill="#e5e7eb" font-family="system-ui, sans-serif" font-size="11" font-weight="700">ANN 2</text>
+  <rect x="425" y="255" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.9" />
+  <text x="450" y="280" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.86</text>
+  <rect x="485" y="255" width="50" height="40" rx="4" fill="#a855f7" />
+  <text x="510" y="280" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">1.0</text>
+  <rect x="545" y="255" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.85" />
+  <text x="570" y="280" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.84</text>
+  <rect x="605" y="255" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.8" />
+  <text x="630" y="280" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.80</text>
+  <rect x="665" y="255" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.8" />
+  <text x="690" y="280" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.83</text>
+
+  <!-- Row 3 -->
+  <text x="370" y="335" fill="#e5e7eb" font-family="system-ui, sans-serif" font-size="11" font-weight="700">ANN 3</text>
+  <rect x="425" y="310" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.8" />
+  <text x="450" y="335" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.82</text>
+  <rect x="485" y="310" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.85" />
+  <text x="510" y="335" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.84</text>
+  <rect x="545" y="310" width="50" height="40" rx="4" fill="#a855f7" />
+  <text x="570" y="335" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">1.0</text>
+  <rect x="605" y="310" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.85" />
+  <text x="630" y="335" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.85</text>
+  <rect x="665" y="310" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.8" />
+  <text x="690" y="335" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.81</text>
+
+  <!-- Row 4 -->
+  <text x="370" y="390" fill="#e5e7eb" font-family="system-ui, sans-serif" font-size="11" font-weight="700">ANN 4</text>
+  <rect x="425" y="365" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.8" />
+  <text x="450" y="390" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.81</text>
+  <rect x="485" y="365" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.8" />
+  <text x="510" y="390" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.80</text>
+  <rect x="545" y="365" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.85" />
+  <text x="570" y="390" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.85</text>
+  <rect x="605" y="365" width="50" height="40" rx="4" fill="#a855f7" />
+  <text x="630" y="390" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">1.0</text>
+  <rect x="665" y="365" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.82" />
+  <text x="690" y="390" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.82</text>
+
+  <!-- Row 5 -->
+  <text x="370" y="445" fill="#e5e7eb" font-family="system-ui, sans-serif" font-size="11" font-weight="700">ANN 5</text>
+  <rect x="425" y="420" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.75" />
+  <text x="450" y="445" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.79</text>
+  <rect x="485" y="420" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.8" />
+  <text x="510" y="445" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.83</text>
+  <rect x="545" y="420" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.8" />
+  <text x="570" y="445" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.81</text>
+  <rect x="605" y="420" width="50" height="40" rx="4" fill="#7c3aed" opacity="0.82" />
+  <text x="630" y="445" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">0.82</text>
+  <rect x="665" y="420" width="50" height="40" rx="4" fill="#a855f7" />
+  <text x="690" y="445" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">1.0</text>
+
+  <!-- Note below matrix -->
+  <rect x="355" y="485" width="390" height="45" rx="6" fill="#111827" stroke="#374151" stroke-width="1" />
+  <text x="370" y="512" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="12">Lead Protocol Author: <tspan fill="#f3f4f6" font-weight="600">Richard Benson</tspan> (Freelance AI Trainer)</text>
+</svg>

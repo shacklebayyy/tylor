@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="tealGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+    <linearGradient id="blueGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <circle cx="700" cy="100" r="200" fill="#0d9488" opacity="0.08" />
+  <circle cx="100" cy="500" r="180" fill="#2563eb" opacity="0.08" />
+
+  <!-- Top Navigation Header -->
+  <rect x="30" y="30" width="740" height="50" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+  <circle cx="60" cy="55" r="6" fill="#ef4444" />
+  <circle cx="80" cy="55" r="6" fill="#f59e0b" />
+  <circle cx="100" cy="55" r="6" fill="#10b981" />
+  <text x="130" y="60" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14" font-weight="600">ABRIDGE CLINICAL AI | Healthcare LLM Accuracy Audit</text>
+  <rect x="620" y="42" width="130" height="26" rx="13" fill="url(#tealGlow)" />
+  <text x="685" y="59" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">VERIFIED AUDIT</text>
+
+  <!-- Metric Card 1: Annotation Accuracy -->
+  <rect x="30" y="100" width="230" height="130" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+  <text x="50" y="130" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">ANNOTATION ACCURACY</text>
+  <text x="50" y="175" fill="#ffffff" font-family="system-ui, sans-serif" font-size="38" font-weight="800">96.0%</text>
+  <rect x="50" y="195" width="140" height="8" rx="4" fill="#334155" />
+  <rect x="50" y="195" width="134" height="8" rx="4" fill="url(#tealGlow)" />
+  <text x="198" y="203" fill="#14b8a6" font-family="system-ui, sans-serif" font-size="11" font-weight="700">+4.2% vs target</text>
+
+  <!-- Metric Card 2: Medical Reasoning -->
+  <rect x="285" y="100" width="230" height="130" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+  <text x="305" y="130" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">MEDICAL REASONING</text>
+  <text x="305" y="175" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="38" font-weight="800">PASS</text>
+  <text x="305" y="202" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12">8 Team Members Trained</text>
+
+  <!-- Metric Card 3: Clinical Relevance -->
+  <rect x="540" y="100" width="230" height="130" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+  <text x="560" y="130" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">CLINICAL RELEVANCE</text>
+  <text x="560" y="175" fill="#10b981" font-family="system-ui, sans-serif" font-size="38" font-weight="800">98.4%</text>
+  <text x="560" y="202" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Zero Hallucinations</text>
+
+  <!-- Main Chart Panel -->
+  <rect x="30" y="250" width="740" height="310" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+  <text x="50" y="285" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Clinical Knowledge Domain Evaluation Rubric</text>
+  <text x="50" y="305" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Factual Consistency &amp; Medical Note Quality Scores</text>
+
+  <!-- Horizontal Progress Bars for Domains -->
+  <!-- Domain 1 -->
+  <text x="50" y="345" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Patient History Summarization</text>
+  <text x="680" y="345" fill="#14b8a6" font-family="system-ui, sans-serif" font-size="13" font-weight="700">97.8%</text>
+  <rect x="50" y="355" width="670" height="12" rx="6" fill="#1e293b" />
+  <rect x="50" y="355" width="655" height="12" rx="6" fill="url(#tealGlow)" />
+
+  <!-- Domain 2 -->
+  <text x="50" y="405" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Symptom &amp; Diagnostic Coding (ICD-10 Audit)</text>
+  <text x="680" y="405" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="13" font-weight="700">95.2%</text>
+  <rect x="50" y="415" width="670" height="12" rx="6" fill="#1e293b" />
+  <rect x="50" y="415" width="638" height="12" rx="6" fill="url(#blueGlow)" />
+
+  <!-- Domain 3 -->
+  <text x="50" y="465" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Pharmacological Reasoning &amp; Dosage Verification</text>
+  <text x="680" y="465" fill="#14b8a6" font-family="system-ui, sans-serif" font-size="13" font-weight="700">98.1%</text>
+  <rect x="50" y="475" width="670" height="12" rx="6" fill="#1e293b" />
+  <rect x="50" y="475" width="657" height="12" rx="6" fill="url(#tealGlow)" />
+
+  <!-- Footer Tag inside Panel -->
+  <rect x="50" y="515" width="670" height="30" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+  <text x="65" y="535" fill="#64748b" font-family="system-ui, sans-serif" font-size="12">Auditor: <tspan fill="#cbd5e1" font-weight="600">Richard Benson</tspan> | Organization: <tspan fill="#cbd5e1" font-weight="600">Abridge (Healthcare AI)</tspan> | Evaluation Cycle: <tspan fill="#14b8a6" font-weight="600">2021–2022</tspan></text>
+</svg>

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080e1a" />
+      <stop offset="100%" stop-color="#111c30" />
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+    <radialGradient id="droneGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="1" />
+      <stop offset="60%" stop-color="#00f2fe" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#skyGrad)" />
+
+  <g opacity="0.2">
+    <line x1="50" y1="0" x2="50" y2="500" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="4,6" />
+    <line x1="200" y1="0" x2="200" y2="500" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="4,6" />
+    <line x1="350" y1="0" x2="350" y2="500" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="4,6" />
+    <line x1="500" y1="0" x2="500" y2="500" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="4,6" />
+    <line x1="650" y1="0" x2="650" y2="500" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="4,6" />
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="4,6" />
+    <line x1="0" y1="250" x2="800" y2="250" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="4,6" />
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="4,6" />
+  </g>
+
+  <rect x="30" y="20" width="740" height="44" rx="8" fill="#162238" stroke="#263a5e" stroke-width="1" />
+  <circle cx="50" cy="42" r="6" fill="#10b981" />
+  <text x="66" y="46" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="13" font-weight="700" letter-spacing="0.5">SKYWORX DRONE SHOWS | AERIAL FLEET SWARM CHOREOGRAPHY</text>
+  <rect x="610" y="29" width="145" height="26" rx="13" fill="url(#cyanGlow)" />
+  <text x="682" y="46" fill="#080e1a" font-family="system-ui, sans-serif" font-size="11" font-weight="800" text-anchor="middle">FAA PART 107 AIRMAN</text>
+
+  <rect x="30" y="78" width="240" height="392" rx="10" fill="#142036" stroke="#24385a" stroke-width="1" />
+  <text x="48" y="108" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="1">FLIGHT SAFETY &amp; TELEMETRY</text>
+
+  <rect x="48" y="122" width="204" height="66" rx="6" fill="#0d1627" />
+  <text x="60" y="144" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Active Fleet Size</text>
+  <text x="60" y="174" fill="#00f2fe" font-family="system-ui, sans-serif" font-size="26" font-weight="900">500+ <tspan font-size="13" font-weight="600" fill="#94a3b8">Drones</tspan></text>
+
+  <rect x="48" y="198" width="204" height="66" rx="6" fill="#0d1627" />
+  <text x="60" y="220" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Spatial Precision</text>
+  <text x="60" y="250" fill="#10b981" font-family="system-ui, sans-serif" font-size="26" font-weight="900">± 2.5 cm <tspan font-size="12" font-weight="600" fill="#10b981">RTK</tspan></text>
+
+  <text x="48" y="290" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Operational Protocols</text>
+  <text x="48" y="315" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">• 3D Trajectory Deconfliction</text>
+  <text x="48" y="335" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">• Automated Geofence Fail-Safe</text>
+  <text x="48" y="355" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">• Redundant Radio Link (Dual-Band)</text>
+  <text x="48" y="375" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">• Real-Time Battery Telemetry</text>
+
+  <rect x="48" y="398" width="204" height="56" rx="6" fill="#1a2a46" stroke="#38bdf8" stroke-width="1" />
+  <text x="60" y="422" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="700">FOUNDER &amp; CEO DIRECTED</text>
+  <text x="60" y="442" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11">Synchronized Aerial Light Shows</text>
+
+  <rect x="285" y="78" width="485" height="392" rx="10" fill="#142036" stroke="#24385a" stroke-width="1" />
+
+  <ellipse cx="527" cy="380" rx="210" ry="60" fill="none" stroke="#1e3a5f" stroke-width="1.5" stroke-dasharray="6,6" />
+  <ellipse cx="527" cy="380" rx="130" ry="36" fill="none" stroke="#0284c7" stroke-width="1" opacity="0.5" />
+
+  <path d="M 320 380 L 320 180 A 210 60 0 0 1 735 180 L 735 380" fill="none" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="3,5" />
+  <text x="530" y="165" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle" opacity="0.7">3D GEOFENCE SAFETY ENVELOPE</text>
+
+  <g stroke="#00f2fe" stroke-width="1.2" opacity="0.6">
+    <line x1="450" y1="230" x2="527" y2="190" />
+    <line x1="527" y1="190" x2="605" y2="230" />
+    <line x1="605" y1="230" x2="570" y2="300" />
+    <line x1="570" y1="300" x2="485" y2="300" />
+    <line x1="485" y1="300" x2="450" y2="230" />
+    <line x1="527" y1="190" x2="527" y2="270" />
+    <line x1="450" y1="230" x2="527" y2="270" />
+    <line x1="605" y1="230" x2="527" y2="270" />
+    <line x1="485" y1="300" x2="527" y2="270" />
+    <line x1="570" y1="300" x2="527" y2="270" />
+  </g>
+
+  <circle cx="527" cy="190" r="16" fill="url(#droneGlow)" />
+  <circle cx="527" cy="190" r="5" fill="#ffffff" />
+  <circle cx="527" cy="190" r="2" fill="#00f2fe" />
+
+  <circle cx="450" cy="230" r="14" fill="url(#droneGlow)" />
+  <circle cx="450" cy="230" r="4.5" fill="#ffffff" />
+
+  <circle cx="605" cy="230" r="14" fill="url(#droneGlow)" />
+  <circle cx="605" cy="230" r="4.5" fill="#ffffff" />
+
+  <circle cx="527" cy="270" r="18" fill="url(#droneGlow)" />
+  <circle cx="527" cy="270" r="6" fill="#ffffff" />
+
+  <circle cx="485" cy="300" r="14" fill="url(#droneGlow)" />
+  <circle cx="485" cy="300" r="4.5" fill="#ffffff" />
+
+  <circle cx="570" cy="300" r="14" fill="url(#droneGlow)" />
+  <circle cx="570" cy="300" r="4.5" fill="#ffffff" />
+
+  <circle cx="400" cy="260" r="9" fill="url(#droneGlow)" />
+  <circle cx="400" cy="260" r="3.5" fill="#ec4899" />
+  <circle cx="655" cy="260" r="9" fill="url(#droneGlow)" />
+  <circle cx="655" cy="260" r="3.5" fill="#ec4899" />
+  <circle cx="527" cy="340" r="9" fill="url(#droneGlow)" />
+  <circle cx="527" cy="340" r="3.5" fill="#a855f7" />
+
+  <rect x="305" y="98" width="200" height="40" rx="6" fill="#0d1627" stroke="#263a5e" stroke-width="1" opacity="0.9" />
+  <text x="317" y="116" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">WAYPOINT SYNC: <tspan fill="#10b981" font-weight="700">LOCKED</tspan></text>
+  <text x="317" y="130" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="10" font-weight="600">X: 124.5m | Y: 88.2m | Z: 95.0m</text>
+
+  <rect x="305" y="418" width="445" height="36" rx="6" fill="#0d1627" />
+  <text x="325" y="440" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Flight Safety: <tspan fill="#10b981" font-weight="700">100% Zero-Incident Record</tspan> | Synchronized Timecode: <tspan fill="#38bdf8" font-weight="600">SMPTE Audio Sync</tspan></text>
+</svg>
